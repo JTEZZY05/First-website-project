@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<meta charset="UTF-8">
+<html lang="es">
+	<head>
+		<title>Dog Photo App</title>
+	</head>
+	<body>
+	<main>
+		<h1>Dog Photo App</h1>
+	<section>
+		<h2>Dog Photos</h2>
+		<!-- TODO: Add link for dog photos ;) -->
+		<p>See more <a target="_blank" href="https://unsplash.com/s/photos/cool-dog">dog photos</a> on this website</p>
+		<a target="_blank" href="https://unsplash.com/s/photos/cool-dog"><img src="https://www.mypetsname.com/wp-content/uploads/2019/08/Hawaiian-Dog-Names.jpg" alt="A cute doggo at the beach"></a>
+	</section>
+	
+	<section>
+		<h2>Dog List</h2>
+		<h3>Things dogs love</h3>
+		<ul>
+			<li>Walks around the park</li>
+			<li>Big bones</li>
+			<li>Chewing toys...(and shoes)</li>
+		</ul>
+		<figure>
+			<img src="https://s3.amazonaws.com/cdn-origin-etr.akc.org/wp-content/uploads/2016/02/24151204/Golden-Retriever-chewing-on-a-treat-laying-down-in-the-yard.jpeg" alt="A dog enjoying a bone"
+			width="600"
+			height="500">
+			<figcaption>Dogs <em>love</em> bones</figcaption>
+		</figure>
+		<h3>Things cats <strong>hate</strong></h3>
+		<ol>
+			<li>Dog whistles</li>
+			<li>Kids petting them above their head</li>
+			<li>People attacking their owners</li>
+		</ol>
+		<figure>
+			<img src="https://images.unsplash.com/photo-1559190394-df5a28aab5c5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1935&q=80" alt="A dog staring out of the window with a smile"
+			width="500"
+			height="500">
+			<figcaption>A cute dog <em>smiling</em> out of a car window</figcaption>
+		</figure>
+	</section>
+	<section>
+		<h3>Dog form</h3>
+		<form action="https://jkorpela.fi/cgi-bin/echo.cgi" target="_blank">
+			<fieldset>
+				<legend>Is your dog an energetic or lazy dog?</legend>
+				<label><input type="radio" id="Energetic dog" name="Energetic dog-Lazy dog" value="Energetic dog" checked> Energetic dog</label>
+				<label><input type="radio" id="Lazy dog" name="Energetic dog-Lazy dog" value="Lazy dog"> Lazy dog</label>
+			</fieldset>
+			<fieldset>
+				<legend>What is your dog's favorite food?</legend>
+				<input type="checkbox" id="bone" name="food" value="bone"> <label for="bone">Bone</label>
+				<input type="checkbox" id="meat" name="food" value="meat" checked> <label for="meat">Meat</label>
+				<input type="checkbox" id="dog food" name="food" value="dog food"> <label for="dog food">Dog food</label>
+				<input type="checkbox" id="veggies"name="food" value="veggies> <label for="veggies">Veggies</label>
+				
+			</fieldset>
+			<input type="text" name="dogphotourl" placeholder="Dog photo" required>
+			<button type="submit"><strong>Send</strong></button>
+		</form>
+	</section>
+	</main>
+	<footer>
+	<p>No copyright - Tezzyt, Thanks <a href="https://www.freecodecamp.org">freecodecamp.org</a></p>
+	</footer>
+	</body>
+</html>
